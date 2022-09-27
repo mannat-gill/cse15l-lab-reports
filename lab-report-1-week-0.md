@@ -1,3 +1,3 @@
-![Image](rainbow.jpg)
+![Image](HappyRainbow.png)
 
 
