@@ -6,12 +6,14 @@
 ## Lab 1: Remote Access & the File System
 ------
 ### 1. Installing VScode
+>I already had VScode installed. However if you do not you can go to the following site to download it [VScode](https://code.visualstudio.com/)
 ![Image](Installing VScode.png)
 
 ### 2. Remotely Connecting
->Once in your terminal type the following command ssh m1gill@ieng6.ucsd.edu
-
->(currently not logging in with using ssh username@ieng6.ucsd.edu because of password issue)
+>Once in your terminal type the following command ssh cs15lfa22op@ieng6.ucsd.edu
+>The last 2 letters in cs15lfa22op are unique to your own username
+>If you have issues logging in like me :'( use your triton account instead 
+>Such as ssh username@ieng6.ucsd.edu
 
 ![Image](Remotely Connecting.png)
 
