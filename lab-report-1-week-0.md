@@ -10,10 +10,11 @@
 ![Image](Installing VScode.png)
 
 ### 2. Remotely Connecting
->Once in your terminal type the following command ssh cs15lfa22op@ieng6.ucsd.edu
+>Once in your terminal type the following command: ssh cs15lfa22op@ieng6.ucsd.edu
+
 >The last 2 letters in cs15lfa22op are unique to your own username
->If you have issues logging in like me :'( use your triton account instead 
->Such as ssh username@ieng6.ucsd.edu
+
+>If you have issues logging in like me :'( use your triton account instead such as: ssh username@ieng6.ucsd.edu
 
 ![Image](Remotely Connecting.png)
 
