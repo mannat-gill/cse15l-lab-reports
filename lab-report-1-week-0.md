@@ -6,7 +6,8 @@
 ## Lab 1 :Remote Access & the File System
 ------
 ### 1. Installing VScode
-![Image2](Installing VScode.png)
+![Image](Installing VScode.png)
+
 ### 2. Remotely Connecting
 ### 3. Trying Some Commands
 ### 4. Moving Files with scp
