@@ -3,7 +3,7 @@
 
 ![Image](HappyRainbow.png)
 
-## Lab 1 :Remote Access & the File System
+## Lab 1: Remote Access & the File System
 ------
 ### 1. Installing VScode
 ![Image](Installing VScode.png)
@@ -66,7 +66,6 @@ scp Mannat.java m1gill@ieng6.ucsd.edu:~/
 1. Writing a command in quotes at the end of an ssh command. Such as 
 >$ ssh m1gill@ieng6.ucsd.edu "ls"
 ![Image](OptimizedRemoteRunningEx1.png)
-
 2. Use semicolons to run multiple commands in one line 
 >$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ![Image](OptimizedRemoteRunningEx2.png)
