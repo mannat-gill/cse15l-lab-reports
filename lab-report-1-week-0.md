@@ -49,9 +49,31 @@ scp Mannat.java m1gill@ieng6.ucsd.edu:~/
 ![Image](Moving Files with scp.png)
 
 ### 5. Setting an SSH Key
+>Purpose of this step is creating a two files referred to as the public key and private key. The public key gets saved on the server while the private key gets saved on the client. This will allow us to get on the remote server without entering a password
+
+>Do only if it hasn't been set up before 
+1. Type in the command ssh-keygen
+2. When “Enter file in which to save the key (/Users/joe/.ssh/id_rsa):” appears just press Enter
+3. Now when on the client type the command:ssh m1gill@ieng6.ucsd.edu
+4. Then on the server type the command: mkdir .ssh
+5. Now on the client again: scp /Users/mannat/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+6. Now, as the image shows below, you can login without entering your password 
+
 ![Image](Setting an SSH Key.png)
 
 ### 6. Optimizing Remote Running
+>Few tricks for optimizing remote running 
+1. Writing a command in quotes at the end of an ssh command. Such as 
+>$ ssh m1gill@ieng6.ucsd.edu "ls"
+![Image](OptimizedRemoteRunningEx1.png)
+
+2. Use semicolons to run multiple commands in one line 
+>$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+![Image](OptimizedRemoteRunningEx2.png)
+
+>Below is an example of the output of WhereAmI.java before it was altered. 
+Then I manually edited the file to print something else. I used optimized remote running by combining commands to update WhereAmI.java on the remove server and run it to print the new output. 
+
 ![Image](Optimizing Remote Running.png)
 
 
