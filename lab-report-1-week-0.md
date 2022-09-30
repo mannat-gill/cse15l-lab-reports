@@ -14,7 +14,7 @@
 
 >The last 2 letters in cs15lfa22op are unique to your own username
 
->If you have issues logging in like me :'( use your triton account instead such as: ssh username@ieng6.ucsd.edu
+>If you have issues logging in like me :'( use your triton account instead such as: ssh m1gill@ieng6.ucsd.edu
 
 ![Image](Remotely Connecting.png)
 
