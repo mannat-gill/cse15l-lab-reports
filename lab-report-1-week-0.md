@@ -41,7 +41,7 @@
 
 >>(If you have an issue it could be you are in the wrong directory)
 
-![Image](MovingWithSCP_step1.png)
+>![Image](MovingWithSCP_step1.png)
 4. Then run the following command to copy it over to you remote server: 
 scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
 ![Image](MovingWithSCP_Step2.png)
@@ -55,7 +55,7 @@ scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
 
 >>java WhereAmI
 
-![Image](MovingWithSCP_LastStep.png)
+>![Image](MovingWithSCP_LastStep.png)
 
 >#### Output differences on local and remote
 >>Looking at the images above, when the following commands were run 
