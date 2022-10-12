@@ -36,7 +36,7 @@
 3. Test this by using the following commands
 >>javac WhereAmI.java
 
->>java WhereAmI
+>>>java WhereAmI
 
 >>(If you have an issue it could be you are in the wrong directory)
 
