@@ -55,7 +55,7 @@ scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
 ![Image](MovingWithSCP_LastStep.png)
 
 >#### Output differences on local and remote
->>Looing at the images above, when the following commands were run 
+>>Looking at the images above, when the following commands were run 
 >>>javac WhereAmI.java
 
 >>>java WhereAmI
@@ -64,14 +64,17 @@ scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
 
 >>>class WhereAmI {public static void main(String[] args) {
 >>>>System.out.println(System.getProperty("os.name"));
-    System.out.println(System.getProperty("user.name"));
-    System.out.println(System.getProperty("user.home"));
-    System.out.println(System.getProperty("user.dir"));
+
+>>>>System.out.println(System.getProperty("user.name"));
+
+>>>>System.out.println(System.getProperty("user.home"));
+
+>>>>System.out.println(System.getProperty("user.dir"));
   }
 }  
 
->>it is supposed to print information about the operating system (os), username, user directory amd the user working directory. 
->>The reason why we see different outputs is because the first time we ran it we were on the local server, therefore the os, name, directory, and working directory are local. However when we ran it on the remote server, its prints out information relating to that server, since we are running it on a different location. 
+>>it is supposed to print information about the operating system (os), username, user directory and the user working directory. 
+>>The reason why we see different outputs is because the first time we ran it we were on our local server, therefore the os, name, directory, and working directory are local. However when we ran it on the remote server, its prints out information relating to that server, since we are running it on a different location. 
 
 ### 5. Setting an SSH Key
 >Purpose of this step is creating a two files referred to as the public key and private key. The public key gets saved on the server while the private key gets saved on the client. This will allow us to get on the remote server without entering a password
