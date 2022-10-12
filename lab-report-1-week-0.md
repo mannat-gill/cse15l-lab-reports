@@ -49,9 +49,8 @@ scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
 ![Image](MovingWithSCP_Step3.png)
 7. Type in the command ls to see all the files in your directory and you should see the file name appear 
 8. You can then run the program using the following commands again to run the program within the file
->>javac name.java
-
->>java name
+>>javac WhereAmI.java
+>>java WhereAmI
 
 ![Image](MovingWithSCP_LastStep.png)
 
