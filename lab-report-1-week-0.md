@@ -36,7 +36,7 @@
 3. Test this by using the following commands
 >>javac WhereAmI.java
 
->>>java WhereAmI
+>>java WhereAmI
 
 >>(If you have an issue it could be you are in the wrong directory)
 
@@ -50,6 +50,7 @@ scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
 7. Type in the command ls to see all the files in your directory and you should see the file name appear 
 8. You can then run the program using the following commands again to run the program within the file
 >>javac WhereAmI.java
+
 >>java WhereAmI
 
 ![Image](MovingWithSCP_LastStep.png)
