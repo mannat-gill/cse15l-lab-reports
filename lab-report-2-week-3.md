@@ -55,7 +55,7 @@ ScreenShot 1
 --------------------------
 When you first run the SearchEngine.java class using this following command (shown in the picture) wth any value (in my case 4444). It will generate a link. 
 
-![Image](Server_CallingServer.png)
+![Image](Server_callingServer.png)
 
 Opening the link will show you the following. When creating the link it calls on the method start from the Server class, passing in the integer value we entered along with a Handler object. When the Handler object is created it declares and initializes the string message to Hello. 
 
