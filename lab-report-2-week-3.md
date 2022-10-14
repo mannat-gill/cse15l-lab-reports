@@ -86,7 +86,7 @@ FAILURE INDUCING INPUT : A linked list with elements {2, 3, 4}
 
 ![Image](LL_Append_FII.png)
 
-SYMPTOM : Produced an infinite while loop, because n.next was being set to a new Node inside rather than outside the loop. --> Resulted in an error of "Java heap space"
+SYMPTOM : When you append a value, and neither the root nor the next node after the root is null, then it enters the while loop. However it produces an infinite while loop, because n.next was being set to a new Node inside rather than outside the loop. --> Resulted in an error of "Java heap space". 
 
 ![Image](LL_Append_Symptom.png)
 
