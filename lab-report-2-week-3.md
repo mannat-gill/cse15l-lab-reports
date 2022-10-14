@@ -22,6 +22,10 @@ BUG : move  "n.next = new Node(value, null);" from in the while loop to outside 
 
 ![Image](LL_Append_Bug.png)
 
+CHANGED : method after making change
+
+![Image](LL_Append_Bug.png)
+
 ```
 >## 2. 
 ```
@@ -41,5 +45,9 @@ SYMPTOM :
 BUG :
 
 ![Image](Files_GetFiles_Bugs.png)
+
+CHANGED : 
+
+![Image](Files_GetFiles_Changed.png)
 
 ```
