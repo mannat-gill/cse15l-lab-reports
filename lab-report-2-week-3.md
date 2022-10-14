@@ -7,26 +7,39 @@
 
 >## 1. 
 ```
-Linked List
-_____________
+Linked List: Append Method
+__________________________
 
 FAILURE INDUCING INPUT : A linked list with elements {2, 3, 4}
+
 ![Image](LL_Append_FII.png)
 
-SYMPTOM :
+SYMPTOM : A infinite while loop ran, because n.next was being set to a new Node instead rather than outside the loop. --> Resulted in an error of "Java heap space"
 
-BUG :
+![Image](LL_Append_Symptom.png)
+
+BUG : move  "n.next = new Node(value, null);" from in the while loop to outside the while loop 
+
+![Image](LL_Append_Bug.png)
 
 ```
 >## 2. 
 ```
-Files
-_____________
+Files: GetFiles Method
+__________________________
 
-FAILURE INDUCING INPUT : 
+FAILURE INDUCING INPUT : A list of files paths 
+
+![Image](Files_GetFiles_FII.png)
+![Image](Files_GetFiles_FII2.png)
+
 
 SYMPTOM :
 
+![Image](Files_GetFiles_Symptoms.png)
+
 BUG :
+
+![Image](Files_GetFiles_Bugs.png)
 
 ```
