@@ -51,7 +51,7 @@ SearchEngine Code
         }
     }
 
-ScreenShot 1
+ScreenShot 1 : Opening Link
 --------------------------
 When you first run the SearchEngine.java class using this following command (shown in the picture) wth any value (in my case 4444). It will generate a link. 
 
@@ -61,19 +61,19 @@ Opening the link will show you the following. When creating the link it calls on
 
 ![Image](Server_OpeningLink.png)
 
-ScreenShot 2
+ScreenShot 2 : addSmiley
 --------------------------
 When you add the path "addSmiley", it goes into the method handleRequest and by going through the if statements, when the first if else statement comes back true for the path being "addSmiley", it adds " there :)" to the message. 
 
 ![Image](Server_AddUse.png)
 
-ScreenShot 2
+ScreenShot 3 : remove
 --------------------------
 When you add the path "remove", the else if statement comes back true for the path being "remove" and then changes the String message back to the original initilization of it being just "Hello"
 
 ![Image](UsingRemove.png)
 
-ScreenShot 3
+ScreenShot 4 : addCheckup
 --------------------------
 When you add the path "addCheckup" with the query "?Name=mannat" (I entered mannat but you could enter any string) the else if statement comes back true for the path being "addCheckup". It then checks the query and splits the query into an array of Strings, separating the string whereever it find the = symbol. It then takes checks if the first element is "Name" and if it is, then it takes the second element and adds to the String message. 
 
