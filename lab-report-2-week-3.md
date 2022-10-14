@@ -9,8 +9,7 @@
 
 
 Linked List: Append Method
-__________________________
-
+--------------------------
 FAILURE INDUCING INPUT : A linked list with elements {2, 3, 4}
 
 ![Image](LL_Append_FII.png)
@@ -32,7 +31,7 @@ CHANGED : method after making change
 
 
 Files: GetFiles Method
-__________________________
+--------------------------
 
 FAILURE INDUCING INPUT : A list of files paths 
 
