@@ -5,7 +5,7 @@
 ## Part 1: Servers
 ## Part 2: Bugs 
 
->## 1. 
+### 1. 
 ```
 Linked List: Append Method
 __________________________
@@ -27,7 +27,7 @@ CHANGED : method after making change
 ![Image](LL_Append_Changed.png)
 
 ```
->## 2. 
+### 2. 
 ```
 Files: GetFiles Method
 __________________________
