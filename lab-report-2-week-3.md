@@ -48,6 +48,6 @@ BUG :
 
 CHANGED : 
 
-![Image](Files_GetFiles_Changed.png)
+![Image](Files_GetFiles_Changes.png)
 
 ```
