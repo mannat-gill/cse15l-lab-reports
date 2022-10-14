@@ -75,7 +75,7 @@ When you add the path "remove", the else if statement comes back true for the pa
 
 ScreenShot 4 : addCheckup
 --------------------------
-When you add the path "addCheckup" with the query "?Name=mannat" (I entered mannat but you could enter any string) the else if statement comes back true for the path being "addCheckup". It then checks the query and splits the query into an array of Strings, separating the string whereever it find the = symbol. It then takes checks if the first element is "Name" and if it is, then it takes the second element and adds to the String message. 
+When you add the path "addCheckup" with the query "?Name=mannat" (I entered mannat but you could enter any string) the else if statement comes back true for the path being "addCheckup". It then checks the query and splits the query into an array of Strings, separating the string wherever it finds the = symbol. It then checks if the first element is "Name" and if it is, then it takes the second element and adds to the String message. 
 
 ![Image](Server_QueryUse.png)
 
@@ -94,7 +94,7 @@ SYMPTOM : When you append a value, and neither the root nor the next node after 
 
 ![Image](LL_Append_Symptom.png)
 
-BUG : Moved  "n.next = new Node(value, null);" from in inside the while loop to outside the while loop 
+BUG : Moved  "n.next = new Node(value, null);" from inside the while loop to outside the while loop 
 
 ![Image](LL_Append_Bugs.png)
 
@@ -106,7 +106,7 @@ CHANGED : Method after making change
 ### 2. 
 
 
-Files: GetFiles Method
+File: GetFiles Method
 --------------------------
 
 FAILURE INDUCING INPUT : A list of file paths and a folder path
@@ -115,7 +115,7 @@ FAILURE INDUCING INPUT : A list of file paths and a folder path
 ![Image](Files_GetFiles_FII2.png)
 
 
-SYMPTOM : The expected order of the files in the list was different that tht order of the files outputed by the method. 
+SYMPTOM : The expected order of the files in the list was different than the order of the files outputed by the method. 
 
 ![Image](Files_GetFiles_Symptoms.png)
 
