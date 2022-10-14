@@ -8,8 +8,7 @@ SearchEngine Code
 --------------------------
 >
     import java.io.IOException;
-    import java.net.URI;
-
+    import java.net.URI
     class Handler implements URLHandler {
         String message = "Hello";
 
@@ -53,25 +52,29 @@ SearchEngine Code
 
 ScreenShot 1
 --------------------------
-When you first run the SearchEngine.java class using this following command (shown in the picture) wth any value (in my class 4444). It will generate a link. 
+When you first run the SearchEngine.java class using this following command (shown in the picture) wth any value (in my case 4444). It will generate a link. 
+
 ![Image](Server_CallingServer.png)
 
-Opening the link will show you the following. When creating the link it calls on the method start from the Server class, passing in the integer value we entered along with a Handler object. When the Handler object is passes it declares and initializes the string message to Hello. 
+Opening the link will show you the following. When creating the link it calls on the method start from the Server class, passing in the integer value we entered along with a Handler object. When the Handler object is created it declares and initializes the string message to Hello. 
+
 ![Image](Server_OpeningLink.png)
 
 ScreenShot 2
 --------------------------
-When you add the path "addSmiley", it goes into the method handleRequest and by going through the if statements, when if statement comes back true for the path being "addSmiley", it adds " there :)" to the message. 
+When you add the path "addSmiley", it goes into the method handleRequest and by going through the if statements, when the first if else statement comes back true for the path being "addSmiley", it adds " there :)" to the message. 
+
 ![Image](Server_AddUse.png)
 
 ScreenShot 2
 --------------------------
-When you add the path "remove", the else if statement comes back true for the path being "remove", it changes the message string back to the original initilization of it being just "Hello"
+When you add the path "remove", the else if statement comes back true for the path being "remove" and then changes the String message back to the original initilization of it being just "Hello"
+
 ![Image](UsingRemove.png)
 
 ScreenShot 3
 --------------------------
-When you add the path "addCheckup" with the query "?Name=mannat" (i entered mannat but you could enter any string) the else if statement comes back true for the path being "addCheckup". It then checks the query and splits the query into an array of Strings, separating substrings by the = symbol. It then takes if the first element is "Name" and if it is then it takes the second element ands to the String message. 
+When you add the path "addCheckup" with the query "?Name=mannat" (I entered mannat but you could enter any string) the else if statement comes back true for the path being "addCheckup". It then checks the query and splits the query into an array of Strings, separating the string whereever it find the = symbol. It then takes checks if the first element is "Name" and if it is, then it takes the second element and adds to the String message. 
 
 ![Image](Server_QueryUse.png)
 
