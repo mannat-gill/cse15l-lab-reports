@@ -24,7 +24,7 @@ BUG : move  "n.next = new Node(value, null);" from in the while loop to outside 
 
 CHANGED : method after making change
 
-![Image](LL_Append_Bug.png)
+![Image](LL_Append_Changed.png)
 
 ```
 >## 2. 
