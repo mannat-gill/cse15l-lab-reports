@@ -20,7 +20,7 @@ SYMPTOM : A infinite while loop ran, because n.next was being set to a new Node 
 
 BUG : move  "n.next = new Node(value, null);" from in the while loop to outside the while loop 
 
-![Image](LL_Append_Bug.png)
+![Image](LL_Append_Bugs.png)
 
 CHANGED : method after making change
 
