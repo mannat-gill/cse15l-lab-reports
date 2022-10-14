@@ -6,6 +6,7 @@
 ## Part 2: Bugs 
 
 ### 1. 
+
 ```
 Linked List: Append Method
 __________________________
@@ -25,9 +26,10 @@ BUG : move  "n.next = new Node(value, null);" from in the while loop to outside 
 CHANGED : method after making change
 
 ![Image](LL_Append_Changed.png)
-
 ```
+
 ### 2. 
+
 ```
 Files: GetFiles Method
 __________________________
