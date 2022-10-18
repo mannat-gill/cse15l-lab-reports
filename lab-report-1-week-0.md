@@ -89,7 +89,12 @@ java WhereAmI
 5. Make sure you change WhereAmI.java to whatever file you are copying over
 6. Then log into your remote server to check if the file copied over 
   ![Image](MovingWithSCP_Step3.png)
-7. Type in the command ls to see all the files in your directory and you should see the file name appear 
+7. Type in the command this command to see all the files in your directory and you 
+should see the file name appear 
+
+    ```
+    $ ls
+    ```
 8. You can then run the program using the following commands again to run the program within the file
 
   ```
@@ -108,7 +113,7 @@ javac WhereAmI.java
 java WhereAmI
 ```
 
-* on both the local and remote. The differences are what the program outputed. Looking at the code for WhereAmI.java which is:
+on both the local and remote. The differences are what the program outputed. Looking at the code for WhereAmI.java which is:
 
 ```
 class WhereAmI {public static void main(String[] args) {
@@ -123,7 +128,7 @@ class WhereAmI {public static void main(String[] args) {
 }  
 ```
 
-* it is supposed to print information about the operating system (os), username, user directory and the user working directory. 
+it is supposed to print information about the operating system (os), username, user directory and the user working directory. 
 * The reason why we see different outputs is because the first time we ran it we were on our local server, therefore the os, name, directory, and working directory are local. However when we ran it on the remote server, its prints out information relating to that server, since we are running it on a different location. 
 
 ### 5. Setting an SSH Key
@@ -161,6 +166,7 @@ Do only if it hasn't been set up before
 
 ### 6. Optimizing Remote Running
 Few tricks for optimizing remote running 
+
 1. Writing a command in quotes at the end of an ssh command. Such as 
 
 ```
@@ -168,6 +174,7 @@ $ ssh m1gill@ieng6.ucsd.edu "ls"
 ```
 
 ![Image](Images/OptimizedRemoteRunningEx1.png)
+
 2. Use semicolons to run multiple commands in one line 
 
 ```
