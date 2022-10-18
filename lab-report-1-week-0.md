@@ -6,8 +6,8 @@
 ## Lab 1: Remote Access & the File System
 ------
 ### 1. Installing VScode
-I already had VScode installed. However if you do not you can go to the following site to download it [VScode](https://code.visualstudio.com/)
-![Image](Installing VScode.png)
+  I already had VScode installed. However if you do not you can go to the following site to download it [VScode](https://code.visualstudio.com/)
+  ![Image](Installing VScode.png)
 
 ### 2. Remotely Connecting
 * Once in your terminal type the following command: ssh cs15lfa22op@ieng6.ucsd.edu
@@ -16,11 +16,11 @@ I already had VScode installed. However if you do not you can go to the followin
 
 * If you have issues logging in like me :'(  -> use your triton account instead such as: 
 
-```
-ssh m1gill@ieng6.ucsd.edu
-```
+  ```
+  ssh m1gill@ieng6.ucsd.edu
+  ```
 
-![Image](Remotely Connecting.png)
+  ![Image](Remotely Connecting.png)
 
 ### 3. Trying Some Commands
 Running commands cd, ls, pwd, mkdir, cp 
@@ -31,7 +31,7 @@ Running commands cd, ls, pwd, mkdir, cp
 5. To display a help message for mkdir(make director): $ mkdir --help
 6. Printed the contents of the file hello.txt: $ cat /home/linux/ieng6/cs15lfa22/public/hello.txt
 
-![Image](Trying Some Commands.png)
+  ![Image](Trying Some Commands.png)
 
 ### 4. Moving Files with scp
 In order to copy from your computer to the remote server
@@ -83,13 +83,13 @@ java WhereAmI
 
 ```
 class WhereAmI {public static void main(String[] args) {
-System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("os.name"));
 
-System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.name"));
 
-System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.home"));
 
-System.out.println(System.getProperty("user.dir"));
+    System.out.println(System.getProperty("user.dir"));
   }
 }  
 ```
