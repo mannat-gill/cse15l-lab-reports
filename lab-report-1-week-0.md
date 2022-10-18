@@ -70,14 +70,13 @@ Running commands cd, ls, pwd, mkdir, cp
 In order to copy from your computer to the remote server
 1. Logout of the remote server
 2. Make sure the file you want to move over is already created 
-3. Test this by using the following commands
+3. Test this by using the following commands (If you have an issue it could be you are in the wrong directory)
 
 ```
 javac WhereAmI.java
 
 java WhereAmI
 ```
-(If you have an issue it could be you are in the wrong directory)
 ![Image](MovingWithSCP_step1.png)
 4.  Then run the following command to copy it over to you remote server: 
   ```
