@@ -24,9 +24,7 @@ I already had VScode installed. However if you do not you can go to the followin
   ```
   ssh m1gill@ieng6.ucsd.edu
   ```
-
   ![Image](Remotely Connecting.png)
-
 ### 3. Trying Some Commands
 Running commands cd, ls, pwd, mkdir, cp 
 1. First used ls to list the files in the directory: 
@@ -65,7 +63,7 @@ Running commands cd, ls, pwd, mkdir, cp
     $ cat /home/linux/ieng6/cs15lfa22/public/hello.txt
     ```
 
-  ![Image](Trying Some Commands.png)
+   ![Image](Trying Some Commands.png)
 
 ### 4. Moving Files with scp
 In order to copy from your computer to the remote server
@@ -82,13 +80,11 @@ java WhereAmI
 (If you have an issue it could be you are in the wrong directory)
 
 ![Image](MovingWithSCP_step1.png)
-
 4.  Then run the following command to copy it over to you remote server: 
 
   ```
   scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
   ```
-
   ![Image](MovingWithSCP_Step2.png)
 5. Make sure you change WhereAmI.java to whatever file you are copying over
 6. Then log into your remote server to check if the file copied over 
@@ -101,7 +97,6 @@ java WhereAmI
 
   java WhereAmI
   ```
-
   ![Image](MovingWithSCP_LastStep.png)
 
 #### Output differences on local and remote
