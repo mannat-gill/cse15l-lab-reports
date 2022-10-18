@@ -100,7 +100,7 @@ should see the file name appear
   ![Image](MovingWithSCP_LastStep.png)
 
 #### Output differences on local and remote
-* Looking at the images above, when the following commands (image below) were run on both the local and remote. The differences are what the program outputed.  
+* Looking at the images above, when the following commands (shown below) were run on both the local and remote. The differences are what the program outputed.  
 
     ```
     javac WhereAmI.java
@@ -108,7 +108,7 @@ should see the file name appear
     java WhereAmI
     ```
 
-* Looking at the code for WhereAmI.java (shown in image below) it is supposed to print information about the operating system (os), username, user directory and the user working directory. 
+* Looking at the code for WhereAmI.java (shown below) it is supposed to print information about the operating system (os), username, user directory and the user working directory. 
 ```
     class WhereAmI {public static void main(String[] args) {
         System.out.println(System.getProperty("os.name"));
