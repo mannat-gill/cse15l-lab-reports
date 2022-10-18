@@ -92,36 +92,36 @@ should see the file name appear
     $ ls
     ```
 8. You can then run the program using the following commands again to run the program within the file
-  ```
-  javac WhereAmI.java
+    ```
+    javac WhereAmI.java
 
-  java WhereAmI
-  ```
+    java WhereAmI
+    ```
   ![Image](MovingWithSCP_LastStep.png)
 
 #### Output differences on local and remote
 * Looking at the images above, when the following commands were run 
 
-```
-javac WhereAmI.java
+    ```
+    javac WhereAmI.java
 
-java WhereAmI
-```
+    java WhereAmI
+    ```
 
 on both the local and remote. The differences are what the program outputed. Looking at the code for WhereAmI.java which is:
 
-```
-class WhereAmI {public static void main(String[] args) {
-    System.out.println(System.getProperty("os.name"));
+    ```
+    class WhereAmI {public static void main(String[] args) {
+        System.out.println(System.getProperty("os.name"));
 
-    System.out.println(System.getProperty("user.name"));
+        System.out.println(System.getProperty("user.name"));
 
-    System.out.println(System.getProperty("user.home"));
+        System.out.println(System.getProperty("user.home"));
 
-    System.out.println(System.getProperty("user.dir"));
-  }
-}  
-```
+        System.out.println(System.getProperty("user.dir"));
+      }
+    }  
+    ```
 
 it is supposed to print information about the operating system (os), username, user directory and the user working directory. 
 * The reason why we see different outputs is because the first time we ran it we were on our local server, therefore the os, name, directory, and working directory are local. However when we ran it on the remote server, its prints out information relating to that server, since we are running it on a different location. 
