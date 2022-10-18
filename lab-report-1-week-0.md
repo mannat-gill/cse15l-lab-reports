@@ -27,6 +27,7 @@ I already had VScode installed. However if you do not you can go to the followin
   ![Image](Remotely Connecting.png)
 ### 3. Trying Some Commands
 Running commands cd, ls, pwd, mkdir, cp 
+
 1. First used ls to list the files in the directory: 
 
     ```
@@ -70,18 +71,14 @@ In order to copy from your computer to the remote server
 1. Logout of the remote server
 2. Make sure the file you want to move over is already created 
 3. Test this by using the following commands
-
 ```
 javac WhereAmI.java
 
 java WhereAmI
 ```
-
 (If you have an issue it could be you are in the wrong directory)
-
 ![Image](MovingWithSCP_step1.png)
 4.  Then run the following command to copy it over to you remote server: 
-
   ```
   scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
   ```
@@ -96,7 +93,6 @@ should see the file name appear
     $ ls
     ```
 8. You can then run the program using the following commands again to run the program within the file
-
   ```
   javac WhereAmI.java
 
@@ -168,13 +164,10 @@ Do only if it hasn't been set up before
 Few tricks for optimizing remote running 
 
 1. Writing a command in quotes at the end of an ssh command. Such as 
-
 ```
 $ ssh m1gill@ieng6.ucsd.edu "ls"
 ```
-
 ![Image](Images/OptimizedRemoteRunningEx1.png)
-
 2. Use semicolons to run multiple commands in one line 
 
 ```
