@@ -100,7 +100,7 @@ should see the file name appear
   ![Image](MovingWithSCP_LastStep.png)
 
 #### Output differences on local and remote
-* Looking at the images above, when the following commands were run 
+* Looking at the images above, when the following commands (image below) were run on both the local and remote. The differences are what the program outputed.  
 
     ```
     javac WhereAmI.java
@@ -108,9 +108,8 @@ should see the file name appear
     java WhereAmI
     ```
 
-on both the local and remote. The differences are what the program outputed. Looking at the code for WhereAmI.java which is:
-
-    
+* Looking at the code for WhereAmI.java (shown in image below) it is supposed to print information about the operating system (os), username, user directory and the user working directory. 
+```
     class WhereAmI {public static void main(String[] args) {
         System.out.println(System.getProperty("os.name"));
 
@@ -119,10 +118,9 @@ on both the local and remote. The differences are what the program outputed. Loo
         System.out.println(System.getProperty("user.home"));
 
         System.out.println(System.getProperty("user.dir"));
-      }
-    }  
-    
-it is supposed to print information about the operating system (os), username, user directory and the user working directory. 
+      }}  
+ ```   
+
 * The reason why we see different outputs is because the first time we ran it we were on our local server, therefore the os, name, directory, and working directory are local. However when we ran it on the remote server, its prints out information relating to that server, since we are running it on a different location. 
 
 ### 5. Setting an SSH Key
