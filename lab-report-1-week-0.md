@@ -162,12 +162,11 @@ Do only if it hasn't been set up before
 
 ### 6. Optimizing Remote Running
 Few tricks for optimizing remote running 
-
 1. Writing a command in quotes at the end of an ssh command. Such as 
 ```
 $ ssh m1gill@ieng6.ucsd.edu "ls"
 ```
-![Image](Images/OptimizedRemoteRunningEx1.png)
+![Image](Images/OptimizedRemoteRunningEx1.png) 
 2. Use semicolons to run multiple commands in one line 
 
 ```
