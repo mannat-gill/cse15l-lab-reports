@@ -16,9 +16,9 @@ I already had VScode installed. However if you do not you can go to the followin
 
 * If you have issues logging in like me :'(  -> use your triton account instead such as: 
 
-`
+```
 ssh m1gill@ieng6.ucsd.edu
-`
+```
 
 ![Image](Remotely Connecting.png)
 
@@ -50,7 +50,11 @@ java WhereAmI
 ![Image](MovingWithSCP_step1.png)
 
 4. Then run the following command to copy it over to you remote server: 
+
+```
 scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
+```
+
 ![Image](MovingWithSCP_Step2.png)
 5. Make sure you change WhereAmI.java to whatever file you are copying over
 6. Then log into your remote server to check if the file copied over 
@@ -97,7 +101,7 @@ System.out.println(System.getProperty("user.dir"));
 Purpose of this step is creating a two files referred to as the public key and private key. The public key gets saved on the server while the private key gets saved on the client. This will allow us to get on the remote server without entering a password
 
 Do only if it hasn't been set up before 
-1. Type in the command ssh-keygen
+1. Type in the command: $ ssh-keygen
 2. When “Enter file in which to save the key (/Users/joe/.ssh/id_rsa):” appears just press Enter
 3. Now when on the client type the command:ssh m1gill@ieng6.ucsd.edu
 4. Then on the server type the command: mkdir .ssh
