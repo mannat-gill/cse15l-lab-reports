@@ -11,7 +11,11 @@ I already had VScode installed. However if you do not you can go to the followin
   ![Image](Installing VScode.png)
 
 ### 2. Remotely Connecting
-* Once in your terminal type the following command: ssh cs15lfa22op@ieng6.ucsd.edu
+* Once in your terminal type the following command: 
+
+  ```
+  ssh cs15lfa22op@ieng6.ucsd.edu
+  ```
 
 * The last 2 letters in cs15lfa22op are unique to your own username
 
@@ -25,12 +29,41 @@ I already had VScode installed. However if you do not you can go to the followin
 
 ### 3. Trying Some Commands
 Running commands cd, ls, pwd, mkdir, cp 
-1. First used ls to list the files in the directory: $ ls 
-2. Then used cd to change the directory: $ cd perl5
-3. Third used pwd to print the working directory: $ pwd
-4. Then printed hidden files: $ ls -a
-5. To display a help message for mkdir(make director): $ mkdir --help
-6. Printed the contents of the file hello.txt: $ cat /home/linux/ieng6/cs15lfa22/public/hello.txt
+1. First used ls to list the files in the directory: 
+
+    ```
+    $ ls
+    ```
+
+2. Then used cd to change the directory: 
+
+    ```
+    $ cd perl5
+    ```
+
+3. Third used pwd to print the working directory: 
+
+    ```
+    $ pwd
+    ```
+
+4. Then printed hidden files: 
+
+    ```
+    $ ls -a
+    ```
+
+5. To display a help message for mkdir(make director): 
+
+    ```
+    $ mkdir --help
+    ```
+
+6. Printed the contents of the file hello.txt: 
+
+    ```
+    $ cat /home/linux/ieng6/cs15lfa22/public/hello.txt
+    ```
 
   ![Image](Trying Some Commands.png)
 
@@ -102,11 +135,31 @@ class WhereAmI {public static void main(String[] args) {
 Purpose of this step is creating a two files referred to as the public key and private key. The public key gets saved on the server while the private key gets saved on the client. This will allow us to get on the remote server without entering a password
 
 Do only if it hasn't been set up before 
-1. Type in the command: $ ssh-keygen
+1. Type in the command: 
+
+    ```
+    $ ssh-keygen
+    ```
+
 2. When “Enter file in which to save the key (/Users/joe/.ssh/id_rsa):” appears just press Enter
-3. Now when on the client type the command:ssh m1gill@ieng6.ucsd.edu
-4. Then on the server type the command: mkdir .ssh
-5. Now on the client again: scp /Users/mannat/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+3. Now when on the client type the command:
+
+    ```
+    ssh m1gill@ieng6.ucsd.edu
+    ```
+
+4. Then on the server type the command: 
+
+    ```
+    mkdir .ssh
+    ```
+
+5. Now on the client again: 
+
+    ```
+    scp /Users/mannat/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+    ```
+
 6. Now, as the image shows below, you can login without entering your password 
 
 ![Image](Setting an SSH Key.png)
@@ -119,7 +172,7 @@ Few tricks for optimizing remote running
 $ ssh m1gill@ieng6.ucsd.edu "ls"
 ```
 
-![Image](OptimizedRemoteRunningEx1.png)
+![Image](Images/OptimizedRemoteRunningEx1.png)
 2. Use semicolons to run multiple commands in one line 
 
 ```
