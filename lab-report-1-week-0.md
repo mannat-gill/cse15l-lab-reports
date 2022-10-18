@@ -71,7 +71,6 @@ In order to copy from your computer to the remote server
 1. Logout of the remote server
 2. Make sure the file you want to move over is already created 
 3. Test this by using the following commands (If you have an issue it could be you are in the wrong directory)
-
 ```
 javac WhereAmI.java
 
