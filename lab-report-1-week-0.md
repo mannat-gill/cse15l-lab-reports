@@ -114,20 +114,20 @@ Do only if it hasn't been set up before
 Few tricks for optimizing remote running 
 1. Writing a command in quotes at the end of an ssh command. Such as 
 
-`
+```
 $ ssh m1gill@ieng6.ucsd.edu "ls"
-`
+```
 
 ![Image](OptimizedRemoteRunningEx1.png)
 2. Use semicolons to run multiple commands in one line 
 
-`
+```
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
-`
+```
 
 ![Image](OptimizedRemoteRunningEx2.png)
 
->Below is an example of the output of WhereAmI.java before it was altered. 
+Below is an example of the output of WhereAmI.java before it was altered. 
 Then I manually edited the file to print something else. I used optimized remote running by combining commands to update WhereAmI.java on the remove server and run it to print the new output. 
 
 ![Image](Optimizing Remote Running.png)
