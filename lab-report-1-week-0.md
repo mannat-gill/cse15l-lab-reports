@@ -6,7 +6,8 @@
 ## Lab 1: Remote Access & the File System
 ------
 ### 1. Installing VScode
-  I already had VScode installed. However if you do not you can go to the following site to download it [VScode](https://code.visualstudio.com/)
+I already had VScode installed. However if you do not you can go to the following site to download it [VScode](https://code.visualstudio.com/)
+
   ![Image](Installing VScode.png)
 
 ### 2. Remotely Connecting
