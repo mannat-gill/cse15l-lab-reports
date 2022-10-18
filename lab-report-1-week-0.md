@@ -109,7 +109,6 @@ should see the file name appear
     ```
 
 on both the local and remote. The differences are what the program outputed. Looking at the code for WhereAmI.java which is:
-
     ```
     class WhereAmI {public static void main(String[] args) {
         System.out.println(System.getProperty("os.name"));
@@ -122,7 +121,6 @@ on both the local and remote. The differences are what the program outputed. Loo
       }
     }  
     ```
-
 it is supposed to print information about the operating system (os), username, user directory and the user working directory. 
 * The reason why we see different outputs is because the first time we ran it we were on our local server, therefore the os, name, directory, and working directory are local. However when we ran it on the remote server, its prints out information relating to that server, since we are running it on a different location. 
 
