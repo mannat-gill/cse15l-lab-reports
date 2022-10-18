@@ -100,7 +100,7 @@ should see the file name appear
   ![Image](MovingWithSCP_LastStep.png)
 
 #### Output differences on local and remote
-* Looking at the images above, when the following commands (shown below) were run on both the local and remote. The differences are what the program outputed.  
+* When the following commands (shown below) were run on both the local and remote, the differences are shown through what the program outputed (shown in the images above).  
 
     ```
     javac WhereAmI.java
