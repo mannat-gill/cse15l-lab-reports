@@ -83,26 +83,26 @@ java WhereAmI
 
 ![Image](MovingWithSCP_step1.png)
 
-4. Then run the following command to copy it over to you remote server: 
+4.  Then run the following command to copy it over to you remote server: 
 
-```
-scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
-```
+  ```
+  scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
+  ```
 
-![Image](MovingWithSCP_Step2.png)
+  ![Image](MovingWithSCP_Step2.png)
 5. Make sure you change WhereAmI.java to whatever file you are copying over
 6. Then log into your remote server to check if the file copied over 
-![Image](MovingWithSCP_Step3.png)
+  ![Image](MovingWithSCP_Step3.png)
 7. Type in the command ls to see all the files in your directory and you should see the file name appear 
 8. You can then run the program using the following commands again to run the program within the file
 
-```
-javac WhereAmI.java
+  ```
+  javac WhereAmI.java
 
-java WhereAmI
-```
+  java WhereAmI
+  ```
 
-![Image](MovingWithSCP_LastStep.png)
+  ![Image](MovingWithSCP_LastStep.png)
 
 #### Output differences on local and remote
 * Looking at the images above, when the following commands were run 
