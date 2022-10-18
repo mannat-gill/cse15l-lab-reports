@@ -6,8 +6,7 @@
 ## Lab 1: Remote Access & the File System
 ------
 ### 1. Installing VScode
-
-* I already had VScode installed. However if you do not you can go to the following site to download it [VScode](https://code.visualstudio.com/)
+I already had VScode installed. However if you do not you can go to the following site to download it [VScode](https://code.visualstudio.com/)
 ![Image](Installing VScode.png)
 
 ### 2. Remotely Connecting
@@ -16,6 +15,7 @@
 * The last 2 letters in cs15lfa22op are unique to your own username
 
 * If you have issues logging in like me :'(  -> use your triton account instead such as: 
+
 `
 ssh m1gill@ieng6.ucsd.edu
 `
