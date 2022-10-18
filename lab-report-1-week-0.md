@@ -77,8 +77,8 @@ javac WhereAmI.java
 
 java WhereAmI
 ```
-![Image](MovingWithSCP_step1.png)
-4.  Then run the following command to copy it over to you remote server: 
+![Image](MovingWithSCP_step1.png) 
+4. Then run the following command to copy it over to you remote server: 
   ```
   scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
   ```
