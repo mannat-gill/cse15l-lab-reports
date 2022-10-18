@@ -38,11 +38,13 @@ In order to copy from your computer to the remote server
 1. Logout of the remote server
 2. Make sure the file you want to move over is already created 
 3. Test this by using the following commands
+
 ```
 javac WhereAmI.java
 
 java WhereAmI
 ```
+
 (If you have an issue it could be you are in the wrong directory)
 
 ![Image](MovingWithSCP_step1.png)
@@ -55,21 +57,26 @@ scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
 ![Image](MovingWithSCP_Step3.png)
 7. Type in the command ls to see all the files in your directory and you should see the file name appear 
 8. You can then run the program using the following commands again to run the program within the file
+
 ```
 javac WhereAmI.java
 
 java WhereAmI
 ```
+
 ![Image](MovingWithSCP_LastStep.png)
 
 #### Output differences on local and remote
 * Looking at the images above, when the following commands were run 
+
 ```
 javac WhereAmI.java
 
 java WhereAmI
 ```
+
 * on both the local and remote. The differences are what the program outputed. Looking at the code for WhereAmI.java which is:
+
 ```
 class WhereAmI {public static void main(String[] args) {
 System.out.println(System.getProperty("os.name"));
@@ -102,14 +109,18 @@ Do only if it hasn't been set up before
 ### 6. Optimizing Remote Running
 Few tricks for optimizing remote running 
 1. Writing a command in quotes at the end of an ssh command. Such as 
+
 `
 $ ssh m1gill@ieng6.ucsd.edu "ls"
 `
+
 ![Image](OptimizedRemoteRunningEx1.png)
 2. Use semicolons to run multiple commands in one line 
+
 `
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 `
+
 ![Image](OptimizedRemoteRunningEx2.png)
 
 >Below is an example of the output of WhereAmI.java before it was altered. 
