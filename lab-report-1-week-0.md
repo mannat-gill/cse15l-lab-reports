@@ -1,14 +1,14 @@
 # **Welcome to my Lab Report 1 Page !**
 
 
-![Image](LabReport1Photos/HappyRainbow.png)
+![Image](Lab_Report_1_Photos/HappyRainbow.png)
 
 ## Lab 1: Remote Access & the File System
 ------
 ### 1. Installing VScode
 I already had VScode installed. However if you do not you can go to the following site to download it [VScode](https://code.visualstudio.com/)
 
-  ![Image](LabReport1Photos/Installing VScode.png)
+  ![Image](Lab_Report_1_Photos/Installing VScode.png)
 
 ### 2. Remotely Connecting
 * Once in your terminal type the following command: 
@@ -24,7 +24,7 @@ I already had VScode installed. However if you do not you can go to the followin
   ```
   ssh m1gill@ieng6.ucsd.edu
   ```
-  ![Image](LabReport1Photos/Remotely Connecting.png)
+  ![Image](Lab_Report_1_Photos/Remotely Connecting.png)
 ### 3. Trying Some Commands
 Running commands cd, ls, pwd, mkdir, cp 
 
@@ -64,7 +64,7 @@ Running commands cd, ls, pwd, mkdir, cp
     $ cat /home/linux/ieng6/cs15lfa22/public/hello.txt
     ```
 
-   ![Image](LabReport1Photos/Trying Some Commands.png)
+   ![Image](Lab_Report_1_Photos/Trying Some Commands.png)
 
 ### 4. Moving Files with scp
 In order to copy from your computer to the remote server
@@ -76,15 +76,15 @@ In order to copy from your computer to the remote server
 
     java WhereAmI
     ```
-![Image](LabReport1Photos/MovingWithSCP_step1.png) 
+![Image](Lab_Report_1_Photos/MovingWithSCP_step1.png) 
 4. Then run the following command to copy it over to you remote server: 
     ```
     scp WhereAmI.java m1gill@ieng6.ucsd.edu:~/
     ```
-  ![Image](LabReport1Photos/MovingWithSCP_Step2.png)
+  ![Image](Lab_Report_1_Photos/MovingWithSCP_Step2.png)
 5. Make sure you change WhereAmI.java to whatever file you are copying over
 6. Then log into your remote server to check if the file copied over 
-  ![Image](LabReport1Photos/MovingWithSCP_Step3.png)
+  ![Image](Lab_Report_1_Photos/MovingWithSCP_Step3.png)
 7. Type in the command this command to see all the files in your directory and you 
 should see the file name appear 
 
@@ -97,7 +97,7 @@ should see the file name appear
 
     java WhereAmI
     ```
-  ![Image](LabReport1Photos/MovingWithSCP_LastStep.png)
+  ![Image](Lab_Report_1_Photos/MovingWithSCP_LastStep.png)
 
 #### Output differences on local and remote
 * When the following commands (shown below) were run on both the local and remote, the differences are shown through what the program outputed (shown in the images above).  
@@ -154,7 +154,7 @@ Do only if it hasn't been set up before
 
 6. Now, as the image shows below, you can login without entering your password 
 
-![Image](LabReport1Photos/Setting an SSH Key.png)
+![Image](Lab_Report_1_Photos/Setting an SSH Key.png)
 
 ### 6. Optimizing Remote Running
 Few tricks for optimizing remote running 
@@ -162,19 +162,19 @@ Few tricks for optimizing remote running
 ```
 $ ssh m1gill@ieng6.ucsd.edu "ls"
 ```
-![Image](LabReport1Photos//OptimizedRemoteRunningEx1.png) 
+![Image](Lab_Report_1_Photos/OptimizedRemoteRunningEx1.png) 
 2. Use semicolons to run multiple commands in one line 
 
 ```
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 
-![Image](LabReport1Photos/OptimizedRemoteRunningEx2.png)
+![Image](Lab_Report_1_Photos/OptimizedRemoteRunningEx2.png)
 
 Below is an example of the output of WhereAmI.java before it was altered. 
 Then I manually edited the file to print something else. I used optimized remote running by combining commands to update WhereAmI.java on the remove server and run it to print the new output. 
 
-![Image](LabReport1Photos/Optimizing Remote Running.png)
+![Image](Lab_Report_1_Photos/Optimizing Remote Running.png)
 
 
 
