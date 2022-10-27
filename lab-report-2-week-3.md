@@ -95,7 +95,7 @@ Then I added the following two more
 ![Image](Lab_Report_2_Photos/addPerson_puneet.png)
 ![Image](Lab_Report_2_Photos/addPerson_sherry.png)
 
-Now using "printPersons" we will search the list of people we added to filter out ones not containg the substring we passed through. 
+Now using "printPersons" we will search the list of people we added to get the names containg the substring.
 
 For Example: "/addPerson?printPersons=h" will output the names containing the substring 'h'
 
