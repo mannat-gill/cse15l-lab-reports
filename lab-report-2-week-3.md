@@ -26,13 +26,22 @@ SearchEngine Code
                 return String.format(message);
             }
             else {
-                System.out.println("Path: " + url.getPath());
-                if (url.getPath().contains("/addCheckup")) {
-                    String[] parameters = url.getQuery().split("=");
-                    if (parameters[0].equals("Name")) {
-                        message += "\n" + parameters[1];
-                        message += " hope you are doing well!";
-                        return String.format(message);
+            
+            System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/addPerson")) {
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("Name")) {
+                    names.add(parameters[1]);
+                    return "Added: "+ parameters[1];
+                }
+                else if(parameters[0].equals("printPersons")){
+                        String outputFriends = ""; 
+                        for(String x: names){
+                            if(x.contains(parameters[1])){
+                                outputFriends += x + " "; 
+                            }
+                        }
+                        return outputFriends; 
                     }
                 }
                 return "Not Found!";
@@ -73,11 +82,24 @@ When you add the path "remove", the else if statement comes back true for the pa
 
 ![Image](Lab_Report_2_Photos/UsingRemove.png)
 
-ScreenShot 4 : addCheckup
+ScreenShot 4 : addPerson
 --------------------------
-When you add the path "addCheckup" with the query "?Name=mannat" (I entered mannat but you could enter any string) the else if statement comes back true for the path being "addCheckup". It then checks the query and splits the query into an array of Strings, separating the string wherever it finds the = symbol. It then checks if the first element is "Name" and if it is, then it takes the second element and adds to the String message. 
+When you add the path "addPerson", it checks to see if the query is "Name" or "printPersons" by checking the array of Strings at index 0, where we stored the arguments of the query after splitting them. For the case of it being "Name", it adds the name you entered. 
 
-![Image](Lab_Report_2_Photos/Server_QueryUse.png)
+For Example: "/addPerson?Name=sachi" will add sachi 
+
+![Image](Lab_Report_2_Photos/addPerson_sachi.png)
+
+Then I added the following two more
+
+![Image](Lab_Report_2_Photos/addPerson_puneet.png)
+![Image](Lab_Report_2_Photos/addPerson_sherry.png)
+
+Now using "printPersons" we will search the list of people we added to filter out ones not containg the substring we passed through. 
+
+For Example: "/addPerson?printPersons=h" will output the names containing the substring 'h'
+
+![Image](Lab_Report_2_Photos/printPersons_with_h.png)
 
 ## Part 2: Bugs 
 
