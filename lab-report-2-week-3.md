@@ -110,7 +110,7 @@ Linked List: Append Method
 --------------------------
 FAILURE INDUCING INPUT : A linked list with elements {2, 3, 4}
 
-![Image]Lab_Report_2_Photos/LL_Append_FII.png)
+![Image](Lab_Report_2_Photos/LL_Append_FII.png)
 
 SYMPTOM : 
 
