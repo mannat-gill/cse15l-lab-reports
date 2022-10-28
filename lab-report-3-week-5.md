@@ -5,7 +5,7 @@
 ## less -p[string] [file path]
 -------------------------
 
-This command highlights any occurence of the string you passed within the given file. It also directly goes to the first occurence of the string in the file. This is useful for when trying to find if a certain string exits in a file and where it is located, especially when trying to find the first occurence. 
+This command highlights any occurence of the string you passed within the given file. It also directly goes to the first occurence of the string in the file. This is useful for when trying to find if a certain string exits in a file and where it is located, especially when trying to find its first occurence. 
 
 ### Example 1:
 
@@ -48,7 +48,7 @@ Over here something noticable is that it finds ALL occurences of the string we a
 ## less -N [file path]
 -------------------------
 
-The purpose of this command is to display the line numbers along with the contents of the file. 
+The purpose of this command is to display the line numbers along with the contents of the file. This is great for when you need to reference certain lines in the file, because it makes it easier to skim through without having to count each line manually. 
 
 
 ### Example 1:
@@ -74,6 +74,8 @@ Output
 
 ![Image](Lab_Report_3_Photos/less_-N_Ex_2.png)
 
+Some files can be very long, such as in this case going up to line 317, which is why displaying line numbers can be helpful in certain situations. 
+
 
 ### Example 3:
 
@@ -92,7 +94,7 @@ Output
 ## less -X [file path]
 -------------------------
 
-This commands leaves the contents of the file in the terminal after exiting. You can also use the down arrow to control how much of the should display after exiting. This is useful for when you need to reference back to something in the file when you are in the terminal. 
+This commands leaves the contents of the file in the terminal after exiting. You can also use the down arrow to control how much of the file you want to display after exiting. This is useful for when you need to reference back to something in the file when you are in the terminal. 
 
 
 ### Example 1:
@@ -131,4 +133,4 @@ Output
 ![Image](Lab_Report_3_Photos/less_-X_Ex_3.png)
 
 
- 
+ As you can see, at the bottom of each picture it shows "mannat@MacBook-Pro-2 docsearch %", which means I am back in the terminal and at the same time some portion of the file is still displayed directly above. 
