@@ -30,7 +30,7 @@ Output
 
 ![Image](Lab_Report_3_Photos/less_-p_Ex_2.png)
 
-In this example we were searching for "Purification" in this file. However it did not find any occurence of that string. In such cases we get the above output. Something to notice is that athough "Purification" wasn't found, "purififcation" is in the file. This just shows that it is case-sensitive.
+In this example we were searching for "Purification" in this file. However it did not find any occurence of that string. In such cases we get the above output. Something to notice is that although "Purification" wasn't found, "purififcation" is in the file. This just shows that it is case-sensitive.
 
 ### Example 3:
 
