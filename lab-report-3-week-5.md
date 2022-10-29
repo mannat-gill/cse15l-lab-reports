@@ -61,6 +61,7 @@ Output
 
 ![Image](Lab_Report_3_Photos/less_-N_Ex_1.png)
 
+The image above displays the use of -N in the file chapter-1.txt. Something to pay attention to is that lines with a bunch of characters will wrap over to the next line and maintain the line number. An example of this is line 6, it gets carried over twice. 
 
 ### Example 2:
 
@@ -89,12 +90,12 @@ Output
 ![Image](Lab_Report_3_Photos/less_-N_Ex_3.png)
 
 
- 
+ Not only does displaying the line number help to traverse through the file easily, when you know what line you are searching for, but it is also helpful to get an idea of how big a file might be. 
 
 ## less -X [file path]
 -------------------------
 
-This commands leaves the contents of the file in the terminal after exiting. You can also use the down arrow to control how much of the file you want to display after exiting. This is useful for when you need to reference back to something in the file when you are in the terminal. 
+This command leaves the contents of the file in the terminal after exiting. You can also use the down arrow to control how much of the file you want to display after exiting. This is useful for when you need to reference back to something in the file when you are in the terminal. 
 
 
 ### Example 1:
@@ -107,6 +108,7 @@ Output
 
 ![Image](Lab_Report_3_Photos/less_-X_Ex_1.png)
 
+Since -X allows you to decide how much of the file you want to display on the terminal, you have total control. With this you can adjust the length to your preference, which can be helpful in cases where you might want to just see a snippet of the file or even a large portion of it. 
 
 ### Example 2:
 
@@ -120,6 +122,7 @@ Output
 
 ![Image](Lab_Report_3_Photos/less_-X_Ex_2.png)
 
+With the contents being in the terminal, if you need to reference back you can just do that by scrolling. 
 
 ### Example 3:
 
