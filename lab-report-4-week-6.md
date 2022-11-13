@@ -58,4 +58,3 @@ After: After hitting <Enter> the /start command takes into effect and moves the 
 
 11. to check the results of out changes we can use the "cat" command to print the contents of the DocSearchServer.java file. 
 
-![Image](Lab_Report_4_Photos/printResult.png)
