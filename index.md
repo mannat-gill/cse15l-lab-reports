@@ -5,5 +5,5 @@ Explore my page using the links below !
 1. [Lab Report 1 (week 1) Page](https://mannat-gill.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 2. [Lab Report 2 (week 3) Page](https://mannat-gill.github.io/cse15l-lab-reports/lab-report-2-week-3.html)
 3. [Lab Report 3 (week 5) Page](https://mannat-gill.github.io/cse15l-lab-reports/lab-report-3-week-5.html)
-4. [Lab Report 4 (week 7) Page](https://mannat-gill.github.io/cse15l-lab-reports/lab-report-4-week-7.html)
+4. [Lab Report 4 (week 6) Page](https://mannat-gill.github.io/cse15l-lab-reports/lab-report-4-week-6.html)
 5. [ More About me :)](https://mannat-gill.github.io/cse15l-lab-reports/trial.html)
