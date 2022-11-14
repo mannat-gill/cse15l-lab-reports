@@ -5,7 +5,7 @@
 
 The command I chose to focus on was changing the name of the "start" paramter and its uses to "base" in the getFiles method (the first task)
 
-Sequence:gg /start \<Enter> cebase \<Escape> n.n.n.n:wq
+Sequence:gg /start \<Enter> ce base \<Escape> n.n.n.n :wq
 
 1. Enter "vim Doc" and then \<Tab> to get the terminal to fill in the name for you. Then hit \<Enter>
 2. After entering the normal mode of "DocSearchServer.java" type in "gg" to go to the very beginning of the page  
