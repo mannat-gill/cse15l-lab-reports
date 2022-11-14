@@ -23,7 +23,6 @@ After: After hitting <Enter> the /start command takes into effect and moves the 
 5. Then while in insert mode enter in base. 
 ![Image](Lab_Report_4_Photos/enter_base_command.png)
 6. Now you can exist insert mode by <Esc>. As the image shoes, it no longer says "-- INSERT --", therefore I have successfully exited insert mode and entered normal mode.
-
 ![Image](Lab_Report_4_Photos/Exit_insertMode.png)
 7. By entering "n" we go to the next occurence of start in the file. 
 ![Image](Lab_Report_4_Photos/Enter_n.png)
