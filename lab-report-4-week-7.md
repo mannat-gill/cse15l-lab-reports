@@ -59,3 +59,28 @@ After: After hitting <Enter> the /start command takes into effect and moves the 
 11. to check the results of out changes we can use the "cat" command to print the contents of the DocSearchServer.java file. 
 
 ![Image](Lab_Report_4_Photos/printResult.png)
+
+## Part 2: Comparing Making Edits W/ and W/out Vim
+
+Compare the time it takes to do the following similar tasks just using different methods. 
+
+Task: Change start to base in the getFiles method on DocSearchServer.java and then copy the file to the remote server and test it with bash test.sh.
+
+Task 2: On the remote server, use vim to make edits and then test the code using bash test.sh. 
+
+Making edits without vim took me about 1 minute and 5 seconds, while making edits with vim took me about 40 seconds. 
+
+This is taking into consideration that I had already git cloned all the necessary files on my local and remote server. I had all the commands ready and also had already fixed TestDocSearch.java. All I had to do was edit DocSearchServer.java and run bash.sh 
+
+Questions 
+
+1. Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why? 
+
+Completing this task make me realize how useful and time efficient vim can be. Since I am still learning all the features of vim and familiarzing myself with them, I think I could cut down the time even further for task 2. Even without being completely comfortable with vim, it took me less time to do the task using that method. So I would probably prefer to use vim. 
+
+2. What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+
+One thing which might influence my decision is if I am working with a file with a bunch of lines of code. I think for these situations vim would be the most useful for searching particular words, compared to just manually finding them. If the file is very short, then I might just make edits without vim, because it is pretty simple to do just by moving your mouse and not having to use jhkl to move around the file. 
+
+
+
