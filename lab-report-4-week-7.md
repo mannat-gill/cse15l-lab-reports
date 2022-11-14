@@ -37,7 +37,7 @@ After: After hitting \<Enter> the /start command takes into effect and moves the
 
 ## Part 2: Comparing Making Edits W/ and W/out Vim
 
-Compare the time it takes to do the following similar tasks just using different methods. 
+Comparing the time it takes to do the following similar tasks just using different methods. 
 
 Task: Change start to base in the getFiles method on DocSearchServer.java and then copy the file to the remote server and test it with bash test.sh.
 
