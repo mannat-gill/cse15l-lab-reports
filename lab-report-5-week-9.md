@@ -11,7 +11,7 @@ Grade.sh (Bash Script)
     PASSED="OK"
     FAILED="Failures"
     message=""
-    
+
     rm -rf student-submission
     git clone $1 student-submission 2> clone.txt 
     cd student-submission/
@@ -63,7 +63,7 @@ Grade.sh (Bash Script)
     #Point where at least getting JUnit tests to run 
     for (( i=0 ; i<$FailedTEST ; i++ )); 
     do 
-        ((score = score + 30 ))
+        ((score = score + 20 ))
         #echo $i
     done
 
@@ -77,10 +77,11 @@ Grade.sh (Bash Script)
 
 ## 3 Outputs of Running Grade.sh 
 
-![Image](Lab_Report_5_Photos/RunningGrade_1.png)
+![Image](Lab_Report_5_Photos/list-methods-corrected_output.png)
 
-![Image](Lab_Report_5_Photos/RunningGrade_2.png)
+![Image](Lab_Report_5_Photos/list-methods-nested_output.png)
 
-![Image](Lab_Report_5_Photos/RunningGrade_3.png)
+![Image](Lab_Report_5_Photos/list-methods-lab3_output.png)
 
 ## Breakdown for Grade.sh with the 1st Output
+
