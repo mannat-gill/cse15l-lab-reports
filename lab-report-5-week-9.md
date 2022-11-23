@@ -10,7 +10,6 @@ Grade.sh (Bash Script)
     PASSED="OK"
     FAILED="Failures"
     message=""
-
     rm -rf student-submission
     git clone $1 student-submission 2> clone.txt 
     cd student-submission/
