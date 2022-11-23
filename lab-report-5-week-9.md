@@ -82,3 +82,4 @@ Grade.sh (Bash Script)
 
 ![Image](Lab_Report_5_Photos/RunningGrade_3.png)
 
+## Breakdown for Grade.sh with the 1st Output
