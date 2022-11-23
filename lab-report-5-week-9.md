@@ -4,12 +4,14 @@
 Grade.sh (Bash Script)
 --------------------------
 >
+
     set -e 
     CP=".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar"
     score=0
     PASSED="OK"
     FAILED="Failures"
     message=""
+    
     rm -rf student-submission
     git clone $1 student-submission 2> clone.txt 
     cd student-submission/
