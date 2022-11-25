@@ -112,10 +112,10 @@ In browser:
 
 ```
 
-    JUnit version 4.13.2
-    ...
-    Time: 0.007
-    OK (3 tests)
+JUnit version 4.13.2
+...
+Time: 0.007
+OK (3 tests)
 
 ```
 
