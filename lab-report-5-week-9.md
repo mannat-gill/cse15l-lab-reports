@@ -77,11 +77,17 @@ Grade.sh (Bash Script)
 
 ## 3 Outputs of Running Grade.sh 
 
+### Repository: list-methods-corrected
 ![Image](Lab_Report_5_Photos/list-methods-corrected_output.png)
+![Image](Lab_Report_5_Photos/browser_corrected.png)
 
+### Repository: list-methods-nested
 ![Image](Lab_Report_5_Photos/list-methods-nested_output.png)
+![Image](Lab_Report_5_Photos/browser_nested.png)
 
+### Repository: list-methods-lab3
 ![Image](Lab_Report_5_Photos/list-methods-lab3_output.png)
+![Image](Lab_Report_5_Photos/browser_output.png)
 
 ## Breakdown for Grade.sh with the 1st Output
 
