@@ -116,6 +116,7 @@ In browser:
         Time: 0.007
 
         OK (3 tests)
+        
 ```
 
 * Line 33: Since the return code is 0, that means all the JUnit tests passed. The if statement executes and lines 34 and 35 run.  
