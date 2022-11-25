@@ -102,9 +102,7 @@ In browser:
 * Lines 2-7: Defines variables 
 * Line 8: Deletes the directory "student-submission" if it exists
 * Line 9: Copies the files from the repository we provide into student submission. It saves the standard error into clone.txt. 
-
-    Standard Error Output: Cloning into 'student-submission'...
-
+    * Standard Error Output: Cloning into 'student-submission'...
 * Line 10: changes directory into student-submission
 * Line 13: Checks to see if a file named "ListExamples.java" does not exist in the student-submission directory. Since in this repository a ListExamples.java files successfully copied over into the diretory, the else statement executes and lines 16 and 17 go into effect. 
 * Lines 16-17: Incremenets the scores and adds to the message variable that the file was found. 
@@ -113,11 +111,11 @@ In browser:
 * Lines 30-31: Compiles the TestListExamples.java file. It stores the error message from line 30 into javacTest.txt. This repository doesn't produce an error message so the file is empty. It stores the standard output from from line 31 into javaTest.txt. In this case the message is 
 
 >
-    JUnit version 4.13.2
-    ...
-    Time: 0.007
+        JUnit version 4.13.2
+        ...
+        Time: 0.007
 
-    OK (3 tests)
+        OK (3 tests)
 
 
 * Line 33: Since the return code is 0, that means all the JUnit tests passed. The if statement executes and lines 34 and 35 run.  
