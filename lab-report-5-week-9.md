@@ -100,15 +100,21 @@ In browser:
 ## Breakdown for Grade.sh on Repository 1 (list-methods-corrected)
 * Line 1: This line is used to stop running the script when a non-zero error status is encountered. 
 * Lines 2-7: Defines variables 
-* Line 8: Deletes the directory "student-submission" if it exists
-* Line 9: Copies the files from the repository we provide into student submission. It saves the standard error into clone.txt. 
+* Line 8: Deletes the directory "student-submission" if it exists. 
+* Line 9: Copies the files from the repository we provide (in the browser or terminal) into student-submission directory. It saves the standard error into clone.txt. 
     * Standard Error Output: Cloning into 'student-submission'...
-* Line 10: changes directory into student-submission
-* Line 13: Checks to see if a file named "ListExamples.java" does not exist in the student-submission directory. Since in this repository a ListExamples.java files successfully copied over into the diretory, the else statement executes and lines 16 and 17 go into effect. 
-* Lines 16-17: Incremenets the scores and adds to the message variable that the file was found. 
-* Lines 21-25: Changes directory into list-examples-grader so it can copy over file TestListExamples.java and JUnit necessary files into directory student-submission. Then changes directory back into student-submission. 
+* Line 10: changes directory to student-submission
+* Line 13: Checks to see if a file named "ListExamples.java" does not exist in the student-submission directory. 
+    * Since in this repository a ListExamples.java file successfully copied over into the diretory, the if statement commands do not run. Insead, the else statement executes and lines 16 and 17 go into effect. 
+* Lines 16-17: Incremenets the score by 10 and adds to the message variable that the file was found. 
+* Lines 21-25: Changes directory into list-examples-grader.
+    * To copy over file TestListExamples.java and JUnit necessary files into directory student-submission. 
+    * Then changes directory back into student-submission. 
 * Line 27: This line allows the script to keep running even if a non-zero error status is encountered. 
-* Lines 30-31: Compiles the TestListExamples.java file. It stores the error message from line 30 into javacTest.txt. This repository doesn't produce an error message so the file is empty. It stores the standard output from from line 31 into javaTest.txt. In this case the message is 
+* Lines 30-31: Compiles the TestListExamples.java file. 
+    * It stores the error message from line 30 into javacTest.txt. 
+    * This repository doesn't produce an error message so the file is empty. 
+    * It stores the standard output from line 31 into javaTest.txt. In this case it saves the following message:
 
 ```
 
@@ -125,10 +131,14 @@ OK (3 tests)
 * Lines 36-38: These lines don't execute because since the if statement went through the else statement commands don't run. 
 * Line 40: Uses the grep command to take the contents in javaTest.txt and remove the empty lines, then save it into grepOutput.txt
 * Line 42: Saves the last line from grepOutput.txt into the variable TAILOUT
-* Lines 44-46: The if statement checks to see if TAILOUT is equal to the variable PASSED. It basically checks to see if all the JUnit Tests passed. In this case they did therefore, score is incremented by 50. 
+* Lines 44-46: The if statement checks to see if TAILOUT is equal to the variable PASSED.
+    * It basically checks to see if all the JUnit Tests passed. 
+    * In this case they did therefore, score is incremented by 50. 
 * Lines 49-51: These do no execute in this case because TAILOUT equaled to PASSED and this statement is if some JUnit tests didnt pass. 
 * Lines 53: In our case since Line 50 didn't execute, varaible SUBSTR just holds an empty string. Therefore this line, which saves the int value of SUBSTR into FailedTest, just saves 0 for that variable. 
 * Lines 56-60: This for loop does not execute because FailedTest equals 0. 
 * Lines 63-65: Since FailedTest equals 0, the if statement commands don't run either. 
-* Lines 67-68: The last 2 lines outputs the string stored in the variable message. The String lets the user know some information about their java file, of what went right or wrong when running their file. Then their final score is outputted, which in this case was 100%!
+* Lines 67-68: The last 2 lines outputs the string stored in the variable message. 
+    * The String lets the user know some information about their java file, of what went right or wrong when running their file. 
+    * Then their final score is outputted, which in this case was 100%!
 
