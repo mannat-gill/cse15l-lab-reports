@@ -3,8 +3,7 @@
 
 Grade.sh (Bash Script)
 --------------------------
->
-
+```
     set -e 
     CP=".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar"
     score=0
@@ -73,6 +72,7 @@ Grade.sh (Bash Script)
 
     echo $message
     echo "FINAL SCORE IS: "$score"%"
+```
 
 ## Outputs of Running Grade.sh on different Repositories
 
