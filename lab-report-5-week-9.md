@@ -75,19 +75,25 @@ Grade.sh (Bash Script)
     echo $message
     echo "FINAL SCORE IS: "$score"%"
 
-## 3 Outputs of Running Grade.sh 
+## Outputs of Running Grade.sh on different Repositories
 
-### Repository: list-methods-corrected
+### Repository 1: list-methods-corrected
+##### In terminal 
 ![Image](Lab_Report_5_Photos/list-methods-corrected_output.png)
+##### In browser 
 ![Image](Lab_Report_5_Photos/browser_corrected.png)
 
-### Repository: list-methods-nested
+### Repository 2: list-methods-nested
+##### In terminal 
 ![Image](Lab_Report_5_Photos/list-methods-nested_output.png)
+##### In browser 
 ![Image](Lab_Report_5_Photos/browser_nested.png)
 
-### Repository: list-methods-lab3
+### Repository 3: list-methods-lab3
+##### In terminal 
 ![Image](Lab_Report_5_Photos/list-methods-lab3_output.png)
-![Image](Lab_Report_5_Photos/browser_output.png)
+##### In browser 
+![Image](Lab_Report_5_Photos/browser_lab3.png)
 
-## Breakdown for Grade.sh with the 1st Output
+## Breakdown for Grade.sh on Repository 1 (list-methods-corrected)
 
