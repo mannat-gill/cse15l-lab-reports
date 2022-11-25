@@ -110,13 +110,13 @@ In browser:
 * Line 27: This line allows the script to keep running even if a non-zero error status is encountered. 
 * Lines 30-31: Compiles the TestListExamples.java file. It stores the error message from line 30 into javacTest.txt. This repository doesn't produce an error message so the file is empty. It stores the standard output from from line 31 into javaTest.txt. In this case the message is 
 
->
+```
         JUnit version 4.13.2
         ...
         Time: 0.007
 
         OK (3 tests)
-
+```
 
 * Line 33: Since the return code is 0, that means all the JUnit tests passed. The if statement executes and lines 34 and 35 run.  
 * Lines 34-35: Increments the score by 40 and adds a String to the message variable which will let the user know all JUnit tests passed. 
