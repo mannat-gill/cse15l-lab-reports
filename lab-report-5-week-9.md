@@ -78,21 +78,24 @@ Grade.sh (Bash Script)
 ## Outputs of Running Grade.sh on different Repositories
 
 ### Repository 1: list-methods-corrected
-##### In terminal 
+
+In terminal: 
 ![Image](Lab_Report_5_Photos/list-methods-corrected_output.png)
-##### In browser 
+In browser: 
 ![Image](Lab_Report_5_Photos/browser_corrected.png)
 
 ### Repository 2: list-methods-nested
-##### In terminal 
+
+In terminal: 
 ![Image](Lab_Report_5_Photos/list-methods-nested_output.png)
-##### In browser 
+In browser: 
 ![Image](Lab_Report_5_Photos/browser_nested.png)
 
 ### Repository 3: list-methods-lab3
-##### In terminal 
+
+In terminal: 
 ![Image](Lab_Report_5_Photos/list-methods-lab3_output.png)
-##### In browser 
+In browser: 
 ![Image](Lab_Report_5_Photos/browser_lab3.png)
 
 ## Breakdown for Grade.sh on Repository 1 (list-methods-corrected)
