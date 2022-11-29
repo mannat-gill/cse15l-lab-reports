@@ -7,7 +7,7 @@ The command I chose to focus on was changing the name of the "start" parameter a
 
 Sequence:gg /start \<Enter> ce base \<Escape> n.n. :wq \<Enter>
 
-1. Enter `vim Do` and then `\<Tab>` to get the terminal to fill in the name for you. Then hit \<Enter>
+1. Enter `vim Do` and then `<Tab>` to get the terminal to fill in the name for you. Then hit \<Enter>
 2. After entering the normal mode of "DocSearchServer.java" type in "gg" to go to the very beginning of the file  
 Before: As you can see in the image below, sometimes the cursor is not at the very top of the file 
 ![Image](Lab_Report_4_Photos/gg_before.png)
