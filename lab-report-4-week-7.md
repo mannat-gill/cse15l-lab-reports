@@ -30,7 +30,7 @@ After: After hitting `<Enter>` the `/start` command takes into effect and moves 
 ![Image](Lab_Report_4_Photos/Enter_".".png)
 9. to go to the last occurence of start. Repeat steps 7 and 8
 ![Image](Lab_Report_4_Photos/nextOccurence.png)
-10. Now to save all the changes enter `wq!`. This will exist out of vim and go to the terminal. 
+10. Now to save all the changes enter `:wq`. This will exist out of vim and go to the terminal. 
 ![Image](Lab_Report_4_Photos/save_Using_wq!.png)
 11. to check the results of out changes we can use the `cat` command to print the contents of the DocSearchServer.java file. 
 ![Image](Lab_Report_4_Photos/printResult.png)
